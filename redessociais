@@ -67,7 +67,7 @@
     }
 
     .tiktok:hover {
-      color: #ff0050;
+      color: #737373;
     }
 
     .youtube:hover {
