@@ -121,12 +121,6 @@
       </div>
       <!-- End pinterest Icon -->
 
-      <!-- Start blog Icon -->
-      <div id="blog" onclick="navigate(this.id)" class="social">
-        <span class="icon blog"><i class="fa-solid fa-blog"></i></span>
-      </div>
-      <!-- End blog Icon -->
-
       <!-- Start email Icon -->
       <div id="email" onclick="navigate(this.id)" class="social">
         <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
@@ -157,9 +151,6 @@
         else if (id === "pinterest") {
           window.open("https://www.pinterest.com/soumaisprodutivo/", '_blank').focus(); //Add the url to your pinterest account
         }
-        else if (id === "blog")
-          window.open("https://linktr.ee/soumaisprodutivo", '_blank').focus(); //Add the url to your blog
-
         else if (id === "email") {
           window.open("mailto:soumaisprodutivocontato@gmail.com", '_blank').focus(); //Add your email after "mailto:""
         }
